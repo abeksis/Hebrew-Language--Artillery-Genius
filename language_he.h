@@ -125,43 +125,43 @@
     #define STRING_COOLDOWN               "קירור"
 
     // Dialog Buttons
-    #define STRING_CONFIRM                "\u088E OK" //Confirm Sign
-    #define STRING_CANCEL                 "\u088F Cancel" //Cancel Sign
-    #define STRING_WARNING                "Warning" //Exclamation Sign
-    #define STRING_CONTINUE               "Continue"
-    #define STRING_CONFIRMATION           "Are you sure?"
+    #define STRING_CONFIRM                "\u088E אישור" //Confirm Sign
+    #define STRING_CANCEL                 "\u088F ביטול" //Cancel Sign
+    #define STRING_WARNING                "אזהרה" //Exclamation Sign
+    #define STRING_CONTINUE               "להמשיך"
+    #define STRING_CONFIRMATION           "האם אתה בטוח?"
 
     // Process Status
-    #define STRING_STATUS                 "Status"
-    #define STRING_READY                  "Ready"
-    #define STRING_BUSY                   "Busy processing, please wait..."
-    #define STRING_LOADING                "Loading..."
-    #define STRING_UNCONNECTED            "No printer attached!"
+    #define STRING_STATUS                 "סטטוס"
+    #define STRING_READY                  "מוכן"
+    #define STRING_BUSY                   "מעבד נתונים, אנא המתן..."
+    #define STRING_LOADING                "טוען..."
+    #define STRING_UNCONNECTED            "לא מחוברת מדפסת!"
 
     // Process Info
-    #define STRING_INFO                   "Info" //Info Sign
-    #define STRING_INVALID_VALUE          "Invalid value(s)"
-    #define STRING_TIMEOUT_REACHED        "Timeout reached!"
-    #define STRING_DISCONNECT_INFO        "Now you can control the printer by your computer!"
-    #define STRING_SHUTTING_DOWN          "Shutting down..."
+    #define STRING_INFO                   "מידע" //Info Sign
+    #define STRING_INVALID_VALUE          "ערכים לא חוקיים"
+    #define STRING_TIMEOUT_REACHED        "הגיע הזמן!"
+    #define STRING_DISCONNECT_INFO        "עכשיו אתה יכול לשלוט על המדפסת באמצעות המחשב שלך!"
+    #define STRING_SHUTTING_DOWN          "כיבוי..."
     #define STRING_WAIT_TEMP_SHUT_DOWN    "Wait for the hotend\ntemperature to be\nlower than %d ℃"
-    #define STRING_POWER_FAILED           "Continue printing?" //Question Sign
-    #define STRING_PROCESS_RUNNING        "Process already running!"
-    #define STRING_PROCESS_COMPLETED      "Process completed!"
-    #define STRING_PROCESS_ABORTED        "Process aborted!"
+    #define STRING_POWER_FAILED           "להמשיך להדפיס?" //Question Sign
+    #define STRING_PROCESS_RUNNING        "התהליך כבר פועל!"
+    #define STRING_PROCESS_COMPLETED      "התהליך הושלם!"
+    #define STRING_PROCESS_ABORTED        "התהליך בוטל!"
 
     // TFT SD, U_DISK, Onboard SD, Filament Runout Process Commands / Status / Info
-    #define STRING_TFTSD                  "TFT SD"
+    #define STRING_TFTSD                  "הוכנס SD"
     #define STRING_READ_TFTSD_ERROR       "Read TFT SD card error!"
-    #define STRING_TFTSD_INSERTED         "Card inserted!"
-    #define STRING_TFTSD_REMOVED          "Card removed!"
-    #define STRING_U_DISK                 "U Disk"
-    #define STRING_READ_U_DISK_ERROR      "Read U Disk error!"
-    #define STRING_U_DISK_INSERTED        "U Disk inserted!"
-    #define STRING_U_DISK_REMOVED         "U Disk removed!"
+    #define STRING_TFTSD_INSERTED         "כרטיס הוכנס!"
+    #define STRING_TFTSD_REMOVED          "כרטיס הוסר!"
+    #define STRING_U_DISK                 "USB הוכנס"
+    #define STRING_READ_U_DISK_ERROR      "USB שגיאה בקריאת נתונים!"
+    #define STRING_U_DISK_INSERTED        "USB הוכנס!"
+    #define STRING_U_DISK_REMOVED         "USB הוסר!"
     #define STRING_ONBOARDSD              "OnboardSD"
-    #define STRING_READ_ONBOARDSD_ERROR   "Read Onboard SD card error!"
-    #define STRING_FILAMENT_RUNOUT        "Filament runout!"
+    #define STRING_READ_ONBOARDSD_ERROR   "שגיאה בקריאת SD מהלוח!"
+    #define STRING_FILAMENT_RUNOUT        "פילמנט נגמר!"
 
     // Steppers, Print, Probe Process Commands / Status / Info
     #define STRING_DISABLE_STEPPERS       "Disarm All"
