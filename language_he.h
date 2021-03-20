@@ -44,9 +44,9 @@
     #define STRING_MAXACCELERATION        "מקסימום תאוצה"
     #define STRING_ACCELERATION           "תאוצה"
     #define STRING_JERK                   "Jerk"
-    #define STRING_JUNCTION_DEVIATION     "Junction Deviation"
+    #define STRING_JUNCTION_DEVIATION     "חריגת סטיה"
     #define STRING_HOME_OFFSET            "אופסט בית"
-    #define STRING_FWRETRACT              "FW Retraction"
+    #define STRING_FWRETRACT              "FW נסיגה"
     #define STRING_FWRECOVER              "FW Retraction Recover"
     #define STRING_RETRACT_AUTO           "Auto Firmware Retract"
     #define STRING_HOTEND_OFFSET          "Offset 2nd Nozzle"
@@ -74,9 +74,9 @@
     #define STRING_SAVE                   "שמור"
     #define STRING_RESTORE                "שיחזור"
     #define STRING_RESET                  "אתחול"
-    #define STRING_EEPROM_SAVE_INFO       "שמור הגדרות מדפסת\nto EEPROM?"
-    #define STRING_EEPROM_RESTORE_INFO    "טען מחדש את ההגדרות מ\nEEPROM?"
-    #define STRING_EEPROM_RESET_INFO      "אתחול EEPROM כדי להציג הגדרות מדפסת?"
+    #define STRING_EEPROM_SAVE_INFO       "שמור הגדרות מדפסת\nל אחסון נתונים?"
+    #define STRING_EEPROM_RESTORE_INFO    "טען מחדש את ההגדרות מ\nאחסון נתונים?"
+    #define STRING_EEPROM_RESET_INFO      "אתחול אחסון נתונים כדי להציג הגדרות מדפסת?"
     #define STRING_SETTINGS_SAVE          "שמור הגדרות"
     #define STRING_SETTINGS_RESTORE       "שחזור הגדרות"
     #define STRING_SETTINGS_RESET         "איפוס הגדרות לברירת המחדל"
@@ -152,11 +152,11 @@
 
     // TFT SD, U_DISK, Onboard SD, Filament Runout Process Commands / Status / Info
     #define STRING_TFTSD                  "הוכנס SD"
-    #define STRING_READ_TFTSD_ERROR       "Read TFT SD card error!"
+    #define STRING_READ_TFTSD_ERROR       "קריאה מכרטיס SD נכשלה!"
     #define STRING_TFTSD_INSERTED         "כרטיס הוכנס!"
     #define STRING_TFTSD_REMOVED          "כרטיס הוסר!"
-    #define STRING_U_DISK                 "יו אס בי"
-    #define STRING_READ_U_DISK_ERROR      "שגיאה בקריאת נתונים מיו אס בי"
+    #define STRING_U_DISK                 "USB"
+    #define STRING_READ_U_DISK_ERROR      "שגיאה בקריאת נתונים מ USB"
     #define STRING_U_DISK_INSERTED        "USB הוכנס!"
     #define STRING_U_DISK_REMOVED         "USB הוסר!"
     #define STRING_ONBOARDSD              "OnboardSD"
@@ -164,8 +164,8 @@
     #define STRING_FILAMENT_RUNOUT        "פילמנט נגמר!"
 
     // Steppers, Print, Probe Process Commands / Status / Info
-    #define STRING_DISABLE_STEPPERS       "Disarm All"
-    #define STRING_XY_UNLOCK              "Disarm XY"
+    #define STRING_DISABLE_STEPPERS       "להפסיק מנועים"
+    #define STRING_XY_UNLOCK              "להפסיק XY"
 
     #define STRING_START_PRINT            "התחל להדפסה:\n %s?"
     #define STRING_STOP_PRINT             "להפסיק להדפיס?"
@@ -183,7 +183,7 @@
     #define STRING_CHAMBER                "תא"
     #define STRING_FAN                    "מאוורר"
 
-    #define STRING_BLTOUCH                "BLTouch"
+    #define STRING_BLTOUCH                "מודד גובה"
     #define STRING_TOUCHMI                "TouchMi"
 
     // Values
@@ -305,7 +305,7 @@
     #define STRING_TOUCH_TO_EXIT          "גע במסך לצאת"
     #define STRING_MAINMENU               "תפריט"
     #define STRING_PARAMETER_SETTING      "הגדרות פרמטרים
-    #define STRING_EEPROM_SETTINGS        "EEPROM"
+    #define STRING_EEPROM_SETTINGS        "אחסון נתונים"
     #define STRING_LEVELING_EDGE_DISTANCE "מרחק קצה מיטה"
     #define STRING_TUNING                 "כונון"
     #define STRING_PID                    "PID"
