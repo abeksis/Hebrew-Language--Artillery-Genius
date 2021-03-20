@@ -183,7 +183,7 @@
     #define STRING_CHAMBER                "תא"
     #define STRING_FAN                    "מאוורר"
 
-    #define STRING_BLTOUCH                "מודד גובה"
+    #define STRING_BLTOUCH                "א.מ. במגע"
     #define STRING_TOUCHMI                "TouchMi"
 
     // Values
